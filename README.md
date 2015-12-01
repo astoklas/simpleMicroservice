@@ -13,11 +13,14 @@ Flexible scaline by adding collectors or workers.
 A clear nonsense project with an educationonal touch ;)
 
 ##Collector
+reads from a a text file, network socket, url streaming data and puts it into a queue
 
 ## Queue
 A redis based DB used to asyncronously queue the Strings collected by the collector and used by the works.
 Also contains the statistical part of the worker output.
 
 ## Worker
+reads data from the queue and split the data into elements and run some statistical analysis on top of it
 
 ## Controller
+Visualize and control the work, start/stop additional collector and worker. Controll collector data source using API
