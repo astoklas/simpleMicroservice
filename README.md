@@ -24,3 +24,7 @@ reads data from the queue and split the data into elements and run some statisti
 
 ## Controller
 Visualize and control the work, start/stop additional collector and worker. Controll collector data source using API
+
+## Learning and Information
+Automated Builds using docker and github (https://docs.docker.com/docker-hub/builds/)
+remote development using pycharm (http://blog.jetbrains.com/pycharm/2015/03/feature-spotlight-python-remote-development-with-pycharm/)
