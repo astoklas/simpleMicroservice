@@ -1,7 +1,7 @@
 import redis
 import time
 
-r = redis.StrictRedis(host='192.168.255.100', port=6379, db=0)
+r = redis.StrictRedis(host='192.168.99.100', port=6379, db=0)
 p = r.pubsub()
 p.subscribe('queue')
 for i in range(1,10000):
